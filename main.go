@@ -1,7 +1,7 @@
 package main
 
-import "log"
+import "quiteline/cmd"
 
 func main() {
-	log.Println("Hello, Universe.")
+	cmd.Start()
 }
